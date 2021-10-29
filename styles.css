@@ -117,19 +117,27 @@ a:hover {
 
 .second-page {
   background-color: black;
-  height: 100vh;
+  min-height: 100vh;
 }
+
 .head {
   text-align: center;
   color: whitesmoke;
 }
+.body {
+  align-items: top;
+  grid-gap: 10%;
+}
 
-.pic {
+img {
   padding: 60px;
   border-radius: 100px;
-  height: 400px;
-  width: 600px;
-  margin-left: 10%;
+  height: auto;
+  width: auto;
+}
+
+.img-container {
+  width: 25%;
 }
 .pic:hover {
   transform: translatey(50px);
@@ -151,17 +159,7 @@ a:hover {
 }
 
 .second-icon {
-  position: absolute;
-  top: 1000px;
-  right: 120px;
-}
-
-.first-row {
-  display: block;
-}
-
-.second-row {
-  align-items: center;
+  display: inline-block;
 }
 
 .ind {
@@ -242,8 +240,8 @@ a:hover {
 }
 
 .hd {
+  display: inline-block;
   color: whitesmoke;
-  position: absolute;
   top: 310%;
   left: 17%;
 }
@@ -258,7 +256,7 @@ a:hover {
 .crd {
   width: 80%;
   padding-left: 20%;
-  padding-top: 6%;
+  padding-top: 1%;
 }
 
 .cdr {
